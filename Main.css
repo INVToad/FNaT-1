@@ -1,0 +1,570 @@
+.DeskContainer {
+    width: 1440px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+.DeskImage {
+    width: 1250px;
+    position: fixed;
+    left: 90px;
+    bottom: -70px;
+}
+
+.Button1 {
+    position: fixed;
+    left: 630px;
+    bottom: 150px;
+    width: 70px;
+}
+.Button2 {
+    position: fixed;
+    left: 755px;
+    bottom: 150px;
+    width: 70px;
+}
+.Button3 {
+    position: fixed;
+    left: 882px;
+    bottom: 150px;
+    width: 70px;
+}
+.Button4 {
+    position: fixed;
+    bottom: 150px;
+    width: 70px;
+}
+.Switch1 {
+    position: fixed;
+    left: 638px;
+    bottom: 20px;
+    width: 50px;
+}
+.Switch2 {
+    position: fixed;
+    left: 765px;
+    bottom: 20px;
+    width: 50px;
+}
+.Switch3 {
+    position: fixed;
+    left: 895px;
+    bottom: 20px;
+    width: 50px;
+}
+.Lever {
+    position: fixed;
+    left: 166px;
+    bottom: 25px;
+    width: 130px;
+}
+.DarkMode {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+}
+.FrontDoorDarkness {
+    position: fixed;
+    left: 408px;
+    top: 110px;
+    width: 621px;
+    height: 360px;
+}
+.LeftDoorDarkness {
+    position: fixed;
+    left: 100px;
+    top: 110px;
+    width: 95px;
+    height: 600px;
+}
+.RightDoorDarkness {
+    position: fixed;
+    right: 105px;
+    top: 100px;
+    width: 95px;
+    height: 600px;
+}
+.TheOffice {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 1440px;
+}
+.PowerBar {
+    position: fixed;
+    left: 620px;
+    bottom: 232px;
+    width: 350px;
+}
+.PowerPercentage {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    left: 1090px;
+    bottom: 170px;
+    font-size: 50px;
+}
+.CameraSystem {
+    position: fixed;
+    left: 980px;
+    bottom: 90px;
+    width: 300px;
+}
+.CAM1 {
+    position: fixed;
+    right: 345px;
+    bottom: 245px;
+    width: 40px;
+}
+.CAM2 {
+    position: fixed;
+    right:430px;
+    bottom: 240px;
+    width: 40px;
+}
+.CAM3 {
+    position: fixed;
+    right: 430px;
+    bottom: 355px;
+    width: 40px;
+}
+.CAM4 {
+    position: fixed;
+    right: 158px;
+    bottom: 258px;
+    width: 40px;
+}
+.CAM5 {
+    position: fixed;
+    right: 250px;
+    bottom: 330px;
+    width: 40px;
+}
+.CAM6 {
+    position: fixed;
+    right: 158px;
+    bottom: 300px;
+    width: 40px;
+}
+.CAM7 {
+    position: fixed;
+    right: 350px;
+    bottom: 210px;
+    width: 40px;
+}
+.CAM8 {
+    position: fixed;
+    right: 250px;
+    bottom: 188px;
+    width: 40px;
+}
+.CAM9 {
+    position: fixed;
+    right: 420px;
+    bottom: 100px;
+    width: 40px;
+}
+.CAM10 {
+    position: fixed;
+    right: 180px;
+    bottom: 100px;
+    width: 40px;
+}
+.Alert {
+    position: fixed;
+    left: 1100px;
+    bottom: 55px;
+    width: 100px;
+}
+.Time {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.GenricToad {
+    position: fixed;
+    left: 438px;
+    bottom: 100px;
+    width: 270px;
+}
+.HallToad {
+    position: fixed;
+    left: 450px;
+    bottom: 350px;
+    width: 380px; 
+}
+.Phantom {
+    position: fixed;
+    left: 460px;
+    bottom: 160px;
+    width: 500px;
+}
+.LeftToad {
+    position: fixed;
+    left: 11px;
+    bottom: 150px;
+    width: 250px; 
+}
+.RightToad {
+    position: fixed;
+    right: 18px;
+    bottom: 150px;
+    width: 250px; 
+}
+.ArmyAntronicHall {
+    position: fixed;
+    left: 700px;
+    bottom: 350px;
+    width: 300px;
+}
+.ArmyAntronic {
+    position: fixed;
+    left: 450px;
+    bottom: 300px;
+    width: 300px;
+}
+.Static {
+    position: fixed;
+    left: 118px;
+    width: 1164px;
+    height: 681px;
+    top: 20px;
+}
+.CAM3Toad {
+    position: fixed;
+    left: 280px;
+    bottom: 160px;
+    width: 270px;
+}
+.MusicTimer {
+    position: fixed;
+    left: 200px;
+    bottom: 150px;
+    width: 100px;
+}
+
+.ButtonPlatform {
+    position: fixed;
+    bottom: 70px;
+    width: 150px;
+}
+.Kermit {
+    position: fixed;
+    left: 200px;
+    bottom: 0px;
+    width: 1000px;
+}
+.ArmyJumpscare {
+    position: fixed;
+    left: 200px;
+    bottom: -250px;
+    width: 1000px;
+}
+.FlipOutScreen {
+    position: fixed;
+    left: 100px;
+    width: 1200px;
+}
+.FlipOutTrigger {
+    position: fixed;
+    left: 200px;
+    top: 0px;
+    width: 1000px;
+}
+.Camera {
+    position: fixed;
+    left: 118px;
+    width: 1164px;
+    height: 681px;
+    top: 20px;
+}
+.HiddenAudioPlay {
+    position: fixed;
+    right: 360px;
+    width: 50px;
+    bottom: 150px;
+}
+.HomeScreen {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+.ContinueGame {
+    position: fixed;
+    left: 5px;
+    top: 500px;
+    width: 300px;
+    height: 45px;
+}
+.ContinueGame:hover {
+    position: fixed;
+    left: 0px;
+    top: 493px;
+    width: 399px;
+    height: 60px;
+}
+.NewGame {
+    position: fixed;
+    left: 5px;
+    top: 570px;
+    width: 200px;
+}
+.NewGame:hover {
+    position: fixed;
+    left: 0px;
+    top: 560px;
+    width: 399px;
+    height: 60px;
+}
+.TiltleScreenName {
+    position: fixed;
+    left: 10px;
+    top: -50px;
+    font-size: 80px;
+    color: rgb(12, 113, 58);
+}
+.Night {
+    position: fixed;
+    left: 10px;
+    top: 520px;
+    font-size: 20px;
+    color: rgb(12, 113, 58);
+}
+.Night6 {
+    position: fixed;
+    left: 5px;
+    top: 630px;
+    width: 140px;
+    height: 45px;
+}
+.Night6:hover {
+    position: fixed;
+    left: 0px;
+    top: 620px;
+    width: 399px;
+    height: 60px;
+}
+.CustomNight {
+    position: fixed;
+    left: 5px;
+    top: 690px;
+    width: 260px;
+    height: 45px;
+}
+.CustomNight:hover {
+    position: fixed;
+    left: 0px;
+    top: 680px;
+    width: 399px;
+    height: 60px;
+}
+.Sloth {
+    position: fixed;
+    left: 500px;
+    top: 50px;
+    width: 250px;
+}
+.ShockImage {
+    position: fixed;
+    left: 345px;
+    bottom: 200px;
+    width: 40px;
+}
+.CAM1mini {
+    position: fixed;
+    left: 30px;
+    bottom: 140px;
+    width: 40px;
+}
+.CAM2mini  {
+    position: fixed;
+    left: 30px;
+    bottom: 110px;
+    width: 40px;
+}
+.CAM3mini  {
+    position: fixed;
+    left: 30px;
+    bottom: 80px;
+    width: 40px;
+}
+.CAM4mini  {
+    position: fixed;
+    left: 30px;
+    bottom: 50px;
+    width: 40px;
+}
+.CAM5mini  {
+    position: fixed;
+    left: 30px;
+    bottom: 20px;
+    width: 40px;
+}
+.CAM6mini  {
+    position: fixed;
+    left: 80px;
+    bottom: 140px;
+    width: 40px;
+}
+.CAM7mini  {
+    position: fixed;
+    left: 80px;
+    bottom: 110px;
+    width: 40px;
+}
+.CAM8mini  {
+    position: fixed;
+    left: 80px;
+    bottom: 80px;
+    width: 40px;
+}
+.CAM9mini  {
+    position: fixed;
+    left: 80px;
+    bottom: 50px;
+    width: 40px;
+}
+.CAM10mini  {
+    position: fixed;
+    left: 80px;
+    bottom: 20px;
+    width: 40px;
+}
+.ShockPlatform {
+    position: fixed;
+    left: 20px;
+    bottom: 0px;
+    width: 140px;
+}
+.SoundMuteButton {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+}
+.SlothJump {
+    position: fixed;
+    left: 300px;
+    bottom: -50px;
+    width: 700px;
+}
+.CustomScreen {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 1440px;
+}
+.BackButton {
+    position: fixed;
+    left: 5px;
+    bottom: 0px;
+    width: 100px;
+}
+.StartButton {
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    width: 90px;
+}
+.ToadIncrease {
+    position: fixed;
+    left: 76px;
+    bottom: 726px;
+    width: 200px;
+}
+.ArmyIncrease {
+    position: fixed;
+    left: 630px;
+    bottom: 726px;
+    width: 200px;
+}
+.SlothIncrease {
+    position: fixed;
+    left: 1162px;
+    bottom: 726px;
+    width: 200px;
+}
+.PhantomIncrease {
+    position: fixed;
+    left: 359px;
+    bottom: 347px;
+    width: 200px;
+}
+.SharkIncrease {
+    position: fixed;
+    left: 904px;
+    bottom: 347px;
+    width: 200px;
+}
+.ToadDecrease {
+    position: fixed;
+    left: 76px;
+    bottom: 422px;
+    width: 200px;
+}
+.ArmyDecrease {
+    position: fixed;
+    left: 629px;
+    bottom: 422px;
+    width: 200px;
+}
+.SlothDecrease {
+    position: fixed;
+    left: 1162px;
+    bottom: 422px;
+    width: 200px;
+}
+.PhantomDecrease {
+    position: fixed;
+    left: 359px;
+    bottom: 45px;
+    width: 200px;
+}
+.SharkDecrease {
+    position: fixed;
+    left: 904px;
+    bottom: 45px;
+    width: 200px;
+}
+.ToadDifficulty {
+    display: none;
+    position: fixed;
+    color: white;
+    left: 150px;
+    bottom: 460px;
+    font-size: 100px;
+}
+.ArmyDifficulty {
+    display: none;
+    position: fixed;
+    color: white;
+    left: 705px;
+    bottom: 460px;
+    font-size: 100px;
+}
+.SlothDifficulty {
+    display: none;
+    position: fixed;
+    color: white;
+    left: 1237px;
+    bottom: 460px;
+    font-size: 100px;
+}
+.PhantomDifficulty {
+    display: none;
+    position: fixed;
+    color: white;
+    left: 430px;
+    bottom: 80px;
+    font-size: 100px;
+}
+.SharkDifficulty {
+    display: none;
+    position: fixed;
+    color: white;
+    left: 978px;
+    bottom: 80px;
+    font-size: 100px;
+}
