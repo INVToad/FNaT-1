@@ -159,7 +159,7 @@ const SharkValues = {
 }
 
 //NightSettings
-var CurrentNight = 2
+var CurrentNight = 1
 
 if (CurrentNight < 6) {
     CurrentNightDisplay.textContent = "Night " + CurrentNight
