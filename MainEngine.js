@@ -1234,6 +1234,7 @@ function GameEnded() {
     Time.hidden = true
     ButtonPlatform.hidden = true
     GameEnd = true
+    Generator.pause()
     clearTimeout(NextHour)
     clearTimeout(NextMusic)
     clearInterval(GameTimeStart)
