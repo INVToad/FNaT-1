@@ -227,7 +227,7 @@ function Nightshift(e) {
         Switch2.src = "Assets/DoorSwitchDown.png"
         Switch3.src = "Assets/DoorSwitchDown.png"
         FrontDoorDarkness.src = "Assets/FrontDoorDarkness.png"
-        LeftDoorDarkness.src = "Assets/leftDarkness.png"
+        LeftDoorDarkness.src = "Assets/LeftDarkness.png"
         RightDoorDarkness.src = "Assets/RightDarkness.png"
         CameraSystem.src = "Assets/BuildingLayout.png"
         CameraScreen.hidden = true
@@ -248,7 +248,7 @@ function Nightshift(e) {
         PowerLevels = 1000
         Time.style.fontSize = "30px"
         Time.style.left = "1100px"
-        Time.style.bottom = "250px"
+        Time.style.bottom = "350px"
         Time.textContent = "12:00"
         PassivePowerLoss = true 
         GameEnd = false
