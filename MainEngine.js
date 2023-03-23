@@ -475,7 +475,7 @@ function LeverSwitch(e) {
 
 function ButtonRelease(e) {
     PlayAudio("StopLightSound")
-    clearTimeout(flickercon)
+    clearInterval(flickercon)
     if (e.target.id == 'Button1') {
         LeftDoorDarkness.hidden = false
         if (e.target.src.includes('Down')  && !LeftDoorDarkness.src.includes("ClosedDoor")) {
@@ -1428,7 +1428,9 @@ function AudioChange() {
         AudioOn = true
         MuteButton.src = "Assets/UnMuted.png"
         if (Office.hidden) {
-            PlayAudio("Menu"})
+            PlayAudio("Menu")
+        } else {
+          PlayAudio("gen")
         }
     }
 }
