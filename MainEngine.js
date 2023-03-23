@@ -434,7 +434,7 @@ function SwitchFlick(e) {
             PowerUsage += 1
         }
     } else if (e.target.src.includes("DoorSwitchUp.png")) {
-        e.target.src = "DoorSwitchDown.png"
+        e.target.src = "Assets/DoorSwitchDown.png"
         PlayAudio("DoorSound")
         if (e.target.id == 'Switch1') {
             LeftDoorDarkness.src = "Assets/LeftDarkness.png"
@@ -1428,7 +1428,7 @@ function AudioChange() {
         AudioOn = true
         MuteButton.src = "Assets/UnMuted.png"
         if (Office.hidden) {
-            MenuSound.play()
+            PlayAudio("Menu"})
         }
     }
 }
