@@ -1428,7 +1428,7 @@ function AudioChange() {
         AudioOn = true
         MuteButton.src = "Assets/UnMuted.png"
         if (Office.hidden) {
-            PlayAudio("Menu")
+          PlayAudio("Menu")
         } else {
           PlayAudio("gen")
         }
