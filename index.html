@@ -2,13 +2,12 @@
 <html>
     <head>
         <meta charset="UTF - 8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-width=1.0">
         <link rel="stylesheet" href="Main.css">
-        <title>FNaT-1 (FNaF fan game)</title>
-        <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+        <title>Fnaf FanGame</title>
     </head>
     <body>
-        <div class="StartScreen">
+        <div style="position: fixed; left: 0px; top: 0px; width: 1432px; height: 901px; overflow: hidden;">
             <img class="HomeScreen" id="HomeScreen" src="Assets/HomeScreen.png" alt="HomeScreen" draggable="false">
             <P class="TiltleScreenName">Five
                 <br> Nights
@@ -22,34 +21,24 @@
             <img class="NewGame" id="NewGame" src="Assets/NewGameButton.png" alt="NewGame" draggable="false">
             <img class="Night6" id="Night6" src="Assets/Night6Button.png" alt="Night6" draggable="false" hidden>
             <img class="CustomNight" id="CustomNight" src="Assets/CustomNightButton.png" alt="CustomNight" draggable="false" hidden>
-        </div>
-        <div class="CustomNightThings">
             <img class="CustomScreen" id="CustomScreen" src="Assets/CustomNightScreen.png" alt="CustomScreen" draggable="false" hidden>
-            <div class="Difficulty controllor">
-                <div class="Increases">
-                    <img class="ToadIncrease" id="ToadIncrease" src="Assets/IncreaseCustom.png" alt="ToadIncrease" draggable="false" hidden>
-                    <img class="ArmyIncrease" id="ArmyIncrease" src="Assets/IncreaseCustom.png" alt="ArmyIncrease" draggable="false" hidden>
-                    <img class="SlothIncrease" id="SlothIncrease" src="Assets/IncreaseCustom.png" alt="SlothIncrease" draggable="false" hidden>
-                    <img class="PhantomIncrease" id="PhantomIncrease" src="Assets/IncreaseCustom.png" alt="PhantomIncrease" draggable="false" hidden>
-                    <img class="SharkIncrease" id="SharkIncrease" src="Assets/IncreaseCustom.png" alt="SharkIncrease" draggable="false" hidden>
-                </div>
-                <div class="Decreases">
-                    <img class="ToadDecrease" id="ToadDecrease" src="Assets/DecreaseCustom.png" alt="ToadDecrease" draggable="false" hidden>
-                    <img class="ArmyDecrease" id="ArmyDecrease" src="Assets/DecreaseCustom.png" alt="ArmyDecrease" draggable="false" hidden>
-                    <img class="SlothDecrease" id="SlothDecrease" src="Assets/DecreaseCustom.png" alt="SlothDecrease" draggable="false" hidden>
-                    <img class="PhantomDecrease" id="PhantomDecrease" src="Assets/DecreaseCustom.png" alt="PhantomDecrease" draggable="false" hidden>
-                    <img class="SharkDecrease" id="SharkDecrease" src="Assets/DecreaseCustom.png" alt="SharkDecrease" draggable="false" hidden>
-                </div>
-                <img class="BackButton" id="BackButton" src="Assets/BackButton.png" alt="BackButton" draggable="false" hidden>
-                <img class="StartButton" id="StartButton" src="Assets/NextButton.png" alt="StartButton" draggable="false" hidden>
-                <p class="ToadDifficulty" id="ToadDifficulty" draggable="false">0</p>
-                <p class="ArmyDifficulty" id="ArmyDifficulty" draggable="false">0</p>
-                <p class="SlothDifficulty" id="SlothDifficulty" draggable="false">0</p>
-                <p class="PhantomDifficulty" id="PhantomDifficulty" draggable="false">0</p>
-                <p class="SharkDifficulty" id="SharkDifficulty" draggable="false">0</p>
-            </div>
-        </div>
-        <div class="Office">
+            <img class="ToadIncrease" id="ToadIncrease" src="Assets/IncreaseCustom.png" alt="ToadIncrease" draggable="false" hidden>
+            <img class="ArmyIncrease" id="ArmyIncrease" src="Assets/IncreaseCustom.png" alt="ArmyIncrease" draggable="false" hidden>
+            <img class="SlothIncrease" id="SlothIncrease" src="Assets/IncreaseCustom.png" alt="SlothIncrease" draggable="false" hidden>
+            <img class="PhantomIncrease" id="PhantomIncrease" src="Assets/IncreaseCustom.png" alt="PhantomIncrease" draggable="false" hidden>
+            <img class="SharkIncrease" id="SharkIncrease" src="Assets/IncreaseCustom.png" alt="SharkIncrease" draggable="false" hidden>
+            <img class="ToadDecrease" id="ToadDecrease" src="Assets/DecreaseCustom.png" alt="ToadDecrease" draggable="false" hidden>
+            <img class="ArmyDecrease" id="ArmyDecrease" src="Assets/DecreaseCustom.png" alt="ArmyDecrease" draggable="false" hidden>
+            <img class="SlothDecrease" id="SlothDecrease" src="Assets/DecreaseCustom.png" alt="SlothDecrease" draggable="false" hidden>
+            <img class="PhantomDecrease" id="PhantomDecrease" src="DecreaseCustom.png" alt="PhantomDecrease" draggable="false" hidden>
+            <img class="SharkDecrease" id="SharkDecrease" src="Assets/DecreaseCustom.png" alt="SharkDecrease" draggable="false" hidden>
+            <img class="BackButton" id="BackButton" src="Assets/BackButton.png" alt="BackButton" draggable="false" hidden>
+            <img class="StartButton" id="StartButton" src="Assets/NextButton.png" alt="StartButton" draggable="false" hidden>
+            <p class="ToadDifficulty" id="ToadDifficulty" draggable="false">0</p>
+            <p class="ArmyDifficulty" id="ArmyDifficulty" draggable="false">0</p>
+            <p class="SlothDifficulty" id="SlothDifficulty" draggable="false">0</p>
+            <p class="PhantomDifficulty" id="PhantomDifficulty" draggable="false">0</p>
+            <p class="SharkDifficulty" id="SharkDifficulty" draggable="false">0</p>
             <img class="TheOffice" id="TheOffice" src="Assets/TheOffice-01.png" alt="Office" draggable="false"hidden>
             <img class="HallToad" id="HallToad" src="Assets/HallToad.png" alt="Halltoad" draggable="false" hidden>
             <img class="ArmyAntronicHall" id="ArmyAntronicHall" src="Assets/HallArmy.png" alt="ArmyAntronic" draggable="false" hidden>
@@ -58,71 +47,61 @@
             <img class="FrontDoorDarkness" id="FrontDoorDarkness" src="Assets/FrontDoorDarkness.png" alt="FrontDoorDarkness" draggable="false"hidden>
             <img class="LeftDoorDarkness" id="LeftDoorDarkness" src="Assets/LeftDarkness.png" alt="LeftDoorDarkness" draggable="false"hidden>
             <img class="RightDoorDarkness" id="RightDoorDarkness" src="Assets/RightDarkness.png" alt="RightDoorDarkness" draggable="false"hidden>
-        </div>
-        <div class="DeskContainer">
             <img class="ShockPlatform" id="ShockPlatform" src="Assets/RewindButtonStation.png" alt="Button" draggable="false" hidden>
             <img class="DeskImage" id="DeskImage" src="Assets/Desk.png" alt="desk" draggable="false"hidden>
             <img class="PowerBar" id="PowerBar" src="Assets/PowerBar-0.png" alt="Power" draggable="false"hidden>
             <p class="PowerPercentage" id="PowerPercentage"hidden>100%</p>
-            <div class="miniScreen">
-                <img class="ShockImage" id="ShockImage" src="Assets/ElectricShock.png" alt="ShockImage" draggable="false" hidden>
-                <img class="CAM1mini" id="CAM1mini" src="Assets/CAM1.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM2mini" id="CAM2mini" src="Assets/CAM2.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM3mini" id="CAM3mini" src="Assets/CAM3.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM4mini" id="CAM4mini" src="Assets/CAM4.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM5mini" id="CAM5mini" src="Assets/CAM5.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM6mini" id="CAM6mini" src="Assets/CAM6.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM7mini" id="CAM7mini" src="Assets/CAM7.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM8mini" id="CAM8mini" src="Assets/CAM8.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM9mini" id="CAM9mini" src="Assets/CAM9.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM10mini" id="CAM10mini" src="Assets/CAM10.png" alt="cambutton" draggable="false" hidden>
-            </div>
+            <img class="ShockImage" id="ShockImage" src="Assets/ElectricShock.png" alt="ShockImage" draggable="false" hidden>
+            <img class="CAM1mini" id="CAM1mini" src="Assets/CAM1.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM2mini" id="CAM2mini" src="Assets/CAM2.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM3mini" id="CAM3mini" src="Assets/CAM3.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM4mini" id="CAM4mini" src="Assets/CAM4.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM5mini" id="CAM5mini" src="Assets/CAM5.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM6mini" id="CAM6mini" src="Assets/CAM6.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM7mini" id="CAM7mini" src="Assets/CAM7.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM8mini" id="CAM8mini" src="Assets/CAM8.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM9mini" id="CAM9mini" src="Assets/CAM9.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM10mini" id="CAM10mini" src="Assets/CAM10.png" alt="cambutton" draggable="false" hidden>
             <img class="ButtonPlatform" id="ButtonPlatform" style="right: 0px;" src="Assets/RewindButtonStation.png" alt="Button" draggable="false"hidden>
-            <div class="buttons&Switches">
-                <img class="Button1" id="Button1" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
-                <img class="Button2" id="Button2" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
-                <img class="Button3" id="Button3" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
-                <img class="Button4" id="Button4" style="right: 50px;" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
-                <img class="Switch1" id="Switch1" src="Assets/DoorSwitchDown.png" alt="Switch" draggable="false"hidden>
-                <img class="Switch2" id="Switch2" src="Assets/DoorSwitchDown.png" alt="Switch" draggable="false"hidden>
-                <img class="Switch3" id="Switch3" src="Assets/DoorSwitchDown.png" alt="Switch" draggable="false"hidden>
-            </div>
+            <img class="Button1" id="Button1" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
+            <img class="Button2" id="Button2" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
+            <img class="Button3" id="Button3" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
+            <img class="Button4" id="Button4" style="right: 50px;" src="Assets/ButtonUp.png" alt="Button" draggable="false"hidden>
+            <img class="Switch1" id="Switch1" src="Assets/DoorSwitchDown.png" alt="Switch" draggable="false"hidden>
+            <img class="Switch2" id="Switch2" src="Assets/DoorSwitchDown.png" alt="Switch" draggable="false"hidden>
+            <img class="Switch3" id="Switch3" src="Assets/DoorSwitchDown.png" alt="Switch" draggable="false"hidden>
             <img class="Lever" id="Lever" src="Assets/LeverUp.png" alt="Lever" draggable="false"hidden>
-            <div class="CameraSystem">
-                <img class="FlipOutScreen" id="FlipOutScreen" style="top: 0px;" src="Assets/FlipOutScreen.png" alt="FlipOutScreen" draggable="false" hidden>
-                <img class="Camera" id="Camera" src="Assets/CameraScreen.png" alt="BuildingLayout" draggable="false" hidden>
-                <div class="AnamitronicPoses">
-                    <img class="ArmyAntronic" id="ArmyAntronic" src="Assets/ArmyDeactive.png" alt="ArmyAntronic" draggable="false" hidden>
-                    <img class="Sloth" id="Sloth" src="Assets/SlothCamera.png" alt="Slothi-boy" draggable="false" hidden>
-                    <img class="GenricToad" id="GenricToad" src="Assets/PotentialNewToad.png" alt="Toadi-boy" draggable="false" hidden>
-                    <img class="CAM3Toad" id="CAM3Toad" src="Assets/NewCAM3Toad.png" alt="Toadi-boy" draggable="false"  hidden>
-                </div>
-                <img class="Static" id="Static" src="Assets/fnaf_static_gif_by_supermariojustin4_d9r0qpv.gif" style="opacity: 1;" alt="BuildingLayout" draggable="false" hidden>
-                <img class="FlipOutTrigger" id="FlipOutTrigger" src="Assets/FlipOutTrigger.png" alt="FlipOutTrigger" draggable="false" hidden>
-                <img class="CameraSystem" id="CameraSystem" src="Assets/BuildingLayout.png" alt="BuildingLayout" draggable="false" hidden>
-                <img class="HiddenAudioPlay" id="HiddenAudioPlay" src="Assets/HiddenAudioPlay.png" alt="CLICKIT" draggable="false" hidden>
-                <img class="CAM1" id="CAM1" src="Assets/CAM1.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM2" id="CAM2" src="Assets/CAM2.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM3" id="CAM3" src="Assets/CAM3.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM4" id="CAM4" src="Assets/CAM4.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM5" id="CAM5" src="Assets/CAM5.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM6" id="CAM6" src="Assets/CAM6.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM7" id="CAM7" src="Assets/CAM7.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM8" id="CAM8" src="Assets/CAM8.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM9" id="CAM9" src="Assets/CAM9.png" alt="cambutton" draggable="false" hidden>
-                <img class="CAM10" id="CAM10" src="Assets/CAM10.png" alt="cambutton" draggable="false" hidden>
-                <img class="MusicTimer" id="MusicTimer" src="Assets/MusicTimer6.png" alt="MusicTimer" draggable="false" hidden>
-            </div>
+            <img class="FlipOutScreen" id="FlipOutScreen" style="top: -1000px;" src="Assets/FlipOutScreen.png" alt="FlipOutScreen" draggable="false" hidden>
+            <img class="Camera" id="Camera" src="Assets/CameraScreen.png" alt="BuildingLayout" draggable="false" hidden>
+            <img class="ArmyAntronic" id="ArmyAntronic" src="Assets/ArmyDeactive.png" alt="ArmyAntronic" draggable="false" hidden>
+            <img class="Sloth" id="Sloth" src="Assets/SlothCamera.png" alt="Slothi-boy" draggable="false" hidden>
+            <img class="GenricToad" id="GenricToad" src="Assets/PotentialNewToad.png" alt="Toadi-boy" draggable="false" hidden>
+            <img class="CAM3Toad" id="CAM3Toad" src="Assets/NewCAM3Toad.png" alt="Toadi-boy" draggable="false"  hidden>
+            <img class="Static" id="Static" src="Assets/fnaf_static_gif_by_supermariojustin4_d9r0qpv.gif" style="opacity: 1;" alt="BuildingLayout" draggable="false" hidden>
+            <img class="FlipOutTrigger" id="FlipOutTrigger" src="Assets/FlipOutTrigger.png" alt="FlipOutTrigger" draggable="false" hidden>
+            <img class="CameraSystem" id="CameraSystem" src="Assets/BuildingLayout.png" alt="BuildingLayout" draggable="false" hidden>
+            <img class="HiddenAudioPlay" id="HiddenAudioPlay" src="Assets/HiddenAudioPlay.png" alt="CLICKIT" draggable="false" hidden>
+            <img class="CAM1" id="CAM1" src="Assets/CAM1.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM2" id="CAM2" src="Assets/CAM2.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM3" id="CAM3" src="Assets/CAM3.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM4" id="CAM4" src="Assets/CAM4.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM5" id="CAM5" src="Assets/CAM5.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM6" id="CAM6" src="Assets/CAM6.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM7" id="CAM7" src="Assets/CAM7.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM8" id="CAM8" src="Assets/CAM8.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM9" id="CAM9" src="Assets/CAM9.png" alt="cambutton" draggable="false" hidden>
+            <img class="CAM10" id="CAM10" src="Assets/CAM10.png" alt="cambutton" draggable="false" hidden>
+            <img class="MusicTimer" id="MusicTimer" src="Assets/MusicTimer6.png" alt="MusicTimer" draggable="false" hidden>
             <img class="DarkMode" id="DarkMode" src="Assets/DarkMode.png" style="opacity: 0.8;" alt="darkMode" draggable="false" hidden>
             <img class="Kermit" id="Kermit" src="Assets/ToadJumpScare.gif" alt="Kermit" draggable="false" hidden>
             <img class="SlothJump" id="SlothJump" src="Assets/ezgif.com-gif-maker (2).gif" alt="SlothJump" draggable="false" hidden>
             <img class="ArmyJumpscare" id="ArmyJumpscare" src="Assets/ArmyJumpscare.png" alt="ArmyJumpscare" draggable="false" hidden>
             <img class="Alert" id="Alert" src="Assets/AlertOff.png" alt="alertSymbol" draggable="false"hidden>
             <img class="Phantom" id="Phantom" src="Assets/FortiClient(Phantom).png" alt="FortiHell" draggable="false" hidden>
-            <p class="Time" id="Time" style="position: fixed; left: 1100px; bottom: 150px; font-size: 30px;" hidden>12:00</p>
+            <p class="Time" id="Time" style="position: absolute; left: 1100px; bottom: 200px; font-size: 30px;" hidden>12:00</p>
             <img class="SoundMuteButton" id="SoundMuteButton" src="Assets/Muted.png" alt="MuteButton" draggable="false">
         </div>
-        <script src="MainEngine.js"></script>
-        <script src="Animatronics.js"></script>
+        <script src="Assets/MainEngine.js"></script>
+        <script src="Assets/Animatronics.js"></script>
     </body>
 </html>

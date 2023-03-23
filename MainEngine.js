@@ -159,7 +159,7 @@ const SharkValues = {
 }
 
 //NightSettings
-var CurrentNight = 1
+var CurrentNight = 7
 
 if (CurrentNight < 6) {
     CurrentNightDisplay.textContent = "Night " + CurrentNight
@@ -198,7 +198,7 @@ function Nightshift(e) {
     DarkMode.style.opacity = '1'
     Time.style.fontSize = "100px"
     Time.style.left = "560px"
-    Time.style.bottom = "250px"
+    Time.style.bottom = "370px"
     Time.textContent = "Night " + CurrentNight
     DarkMode.hidden = false
     Alert.hidden = true
@@ -248,7 +248,7 @@ function Nightshift(e) {
         PowerLevels = 1000
         Time.style.fontSize = "30px"
         Time.style.left = "1100px"
-        Time.style.bottom = "150px"
+        Time.style.bottom = "250px"
         Time.textContent = "12:00"
         PassivePowerLoss = true 
         GameEnd = false
@@ -406,7 +406,7 @@ function ButtonHold(e) {
             MusicRewinding = setTimeout(() => {
                 if (SharkValues.CurrentTimeLevel < 6 && SharkValues.CurrentTimeLevel > 0) {
                     SharkValues.CurrentTimeLevel += 1
-                    MusicTimer.src = "MusicTimer" + SharkValues.CurrentTimeLevel + ".png"
+                    MusicTimer.src = "Assets/MusicTimer" + SharkValues.CurrentTimeLevel + ".png"
                     PlayAudio('WindUpMusic')
                     if (Alert.src.includes("On")) {
                         AlertActive()
@@ -434,7 +434,7 @@ function SwitchFlick(e) {
             PowerUsage += 1
         }
     } else if (e.target.src.includes("DoorSwitchUp.png")) {
-        e.target.src = "Assets/DoorSwitchDown.png"
+        e.target.src = "DoorSwitchDown.png"
         PlayAudio("DoorSound")
         if (e.target.id == 'Switch1') {
             LeftDoorDarkness.src = "Assets/LeftDarkness.png"
@@ -508,9 +508,9 @@ function ButtonRelease(e) {
 
 function AlertActive() {
     if (Alert.src.includes("Off")) {
-        Alert.src = "Assets/AlertOn.png"
+        Alert.src = "AlertOn.png"
     } else if (Alert.src.includes("On")) {
-        Alert.src = "Assets/AlertOff.png"
+        Alert.src = "AlertOff.png"
     }
 }
 
@@ -627,7 +627,7 @@ function GameTime() {
         Alert.hidden = true
         Time.style.fontSize = "100px"
         Time.style.left = "560px"
-        Time.style.bottom = "250px"
+        Time.style.bottom = "370px"
         PassivePowerLoss = false
         FrontDoorDarkness.src = "Assets/FrontClosedDoor.png"
         LeftDoorDarkness.src = "Assets/LeftClosedDoor.png"
@@ -811,7 +811,7 @@ function RewindButton() {
 }
 
 function FlipOutFunction(e) {
-    if (e.screenY > 150) {
+    if (e.screenY > 0) {
         if (ScreenMovementValue > 0) {
             ScreenMovementValue = -50
             LowVoices.pause()
